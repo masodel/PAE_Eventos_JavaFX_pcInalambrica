@@ -86,15 +86,15 @@ public class Reto3Controller {
     private void cargarProductosDeEjemplo() {
         productos.add(new ProductoArtesanal(
                 "ART-001", "Jarrón pintado", "Cerámica",
-                450.00, 8, "/imagenes/jarron.png"
+                450.00, 8, "imagenes/jarron.jpg"
         ));
         productos.add(new ProductoArtesanal(
                 "ART-002", "Hamaca tradicional", "Textil",
-                1250.00, 5, "/imagenes/hamaca.png"
+                1250.00, 5, "imagenes/hamaca.jpg"
         ));
         productos.add(new ProductoArtesanal(
-                "ART-003", "Monedero de cuero", "Cuero",
-                320.00, 10, "/imagenes/monedero.png"
+                "ART-003", "Monedero de tela", "Cuero",
+                320.00, 10, "imagenes/monedero.jpg"
         ));
     }
 
