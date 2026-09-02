@@ -13,7 +13,7 @@ import java.io.IOException;
 public class FormularioGeneralController {
 
     private static final String RUTA_RETO_1 = "pulperia-view.fxml";
-    private static final String RUTA_RETO_2 = "reto2-recepcion-cafe.fxml";
+    private static final String RUTA_RETO_2 = "cafe-view.fxml";
     private static final String RUTA_RETO_3 = "reto3-artesanias.fxml";
 
     @FXML
