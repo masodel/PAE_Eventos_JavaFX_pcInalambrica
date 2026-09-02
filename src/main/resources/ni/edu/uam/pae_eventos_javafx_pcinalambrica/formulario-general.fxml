@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane prefHeight="600.0" prefWidth="900.0"
+            stylesheets="@estilos.css"
+            xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="ni.edu.uam.pae_eventos_javafx_pcinalambrica.FormularioGeneralController">
+    <center>
+        <VBox alignment="CENTER" spacing="24.0" styleClass="panel-principal">
+            <padding>
+                <Insets bottom="40.0" left="60.0" right="60.0" top="40.0" />
+            </padding>
+            <Label styleClass="titulo" text="Guía práctica de eventos JavaFX" />
+            <Label styleClass="subtitulo"
+                   text="Seleccione el formulario que desea abrir"
+                   wrapText="true" />
+            <HBox alignment="CENTER" spacing="18.0">
+                <Button fx:id="btnReto1" mnemonicParsing="false"
+                        onAction="#abrirReto1" prefHeight="125.0" prefWidth="220.0"
+                        styleClass="boton-reto"
+                        text="Reto 1&#10;Inventario de pulpería" />
+                <Button fx:id="btnReto2" mnemonicParsing="false"
+                        onAction="#abrirReto2" prefHeight="125.0" prefWidth="220.0"
+                        styleClass="boton-reto"
+                        text="Reto 2&#10;Recepción de café" />
+                <Button fx:id="btnReto3" mnemonicParsing="false"
+                        onAction="#abrirReto3" prefHeight="125.0" prefWidth="220.0"
+                        styleClass="boton-reto, destacado"
+                        text="Reto 3&#10;Tienda de artesanías" />
+            </HBox>
+            <Label fx:id="lblEstado" styleClass="estado"
+                   text="Aplicación preparada" />
+        </VBox>
+    </center>
+</BorderPane>
